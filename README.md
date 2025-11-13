@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project presents the **design, synthesis, verification, and testability enhancement** of a **7-tap Finite Impulse Response (FIR) filter** with **test-aware low-power clock gating**. The goal is to reduce dynamic power consumption while preserving **100% fault coverage** using scan-based testing.
 
 The complete ASIC design methodology is followed:
@@ -20,7 +20,7 @@ The complete ASIC design methodology is followed:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Implement a low-power DSP block (FIR filter) using **clock gating**.  
 - Ensure **full scan-based testability** using test-mode override.  
 - Achieve high performance while minimizing area and power.  
@@ -28,29 +28,29 @@ The complete ASIC design methodology is followed:
 
 ---
 
-## ⚡ Key Features
-### ✔ 7-tap FIR Filter Architecture  
+## Key Features
+### 7-tap FIR Filter Architecture  
 - Fully synchronous pipeline  
 - 8-bit inputs, expanded output  
 - Symmetric MAC structure for hardware efficiency  
 
-### ✔ Test-Aware Clock Gating  
+### Test-Aware Clock Gating  
 - Gated clock disables inactive datapath  
 - Overrides clock gating during **test_mode = 1**  
 - Enables controllability/observability during scan testing  
 
-### ✔ ASIC Flow Implementation  
+### ASIC Flow Implementation  
 - RTL → Synthesis → DFT → ATPG → Verification  
 - Uses **Nangate 45 nm Open Cell Library**
 
-### ✔ 100% Fault Coverage  
+### 100% Fault Coverage  
 - ATPG using TetraMAX  
 - Detected all 922 faults  
 - Only 9 test patterns required
 
 ---
 
-## 🛠 Tools and Technologies
+## Tools and Technologies
 | Category | Tools |
 |---------|-------|
 | HDL | Verilog |
@@ -63,7 +63,7 @@ The complete ASIC design methodology is followed:
 
 ---
 
-## 📐 Design Flow
+## Design Flow
 1. **RTL Development**
    - FIR filter written in Verilog
    - Testbench created for functional simulation
@@ -92,7 +92,7 @@ The complete ASIC design methodology is followed:
 
 ---
 
-## 📊 Final Results
+## Final Results
 | Metric | Result |
 |--------|--------|
 | FIR Filter Type | 7-Tap, Low-Pass |
@@ -106,5 +106,4 @@ The complete ASIC design methodology is followed:
 
 ---
 
-## 📁 Repository Structure
 

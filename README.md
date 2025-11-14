@@ -1,8 +1,4 @@
 # Test-Aware Low-Power Clock Gating in DSP Blocks  
-**ECE 242 — Digital System Testing and Testable Design**  
-**California State University, Fresno**  
-**Advisor:** Dr. Reza Raeisi  
-**Author:** Sravani Yalaganamoni (301851603)
 
 ---
 
